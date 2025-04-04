@@ -1,0 +1,105 @@
+#root{
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+
+}
+
+:root{
+  --theme-primary : #7C71F1;
+  --mui-palette-primary-dark: #7C71F1 !important;
+  --mui-palette-primary-mainChannel: #7C71F1 !important;
+  --mui-palette-primary-main: #aba4f7 !important;
+  --mui-palette-LinearProgress-primaryBg: #3b3398 !important;
+}
+
+
+.css-yzjoij{
+  display: flex;
+  align-items: center;
+}
+
+
+.completed-row {
+  background-color: rgba(0, 255, 0, 0.1);
+}
+
+.incompleted-row {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+
+/* * {
+  font-family: 'Montserrat', sans-serif;
+} */
+
+/*Calendar*/
+
+
+.rbc-off-range-bg{
+  background : transparent !important;
+}
+
+.rbc-btn-group{
+  background-color: #7C71F1;
+  border-radius: 4px;
+  
+  
+}
+
+.rbc-btn-group button{
+  color: white !important;
+  border: 0px !important;
+  background-color: #7C71F1 !important;
+}
+
+.rbc-btn-group button:hover{
+  background-color: #3b3398 !important;
+}
+
+.rbc-btn-group button.rbc-active{
+  background-color: #3b3398 !important;
+}
+
+
+.rbc-toolbar{
+  margin-bottom: 48px !important;
+}
+
+.rbc-month-view, 
+.rbc-day-bg.rbc-day-bg, 
+.rbc-day-bg,
+.rbc-header,
+.rbc-month-row,
+.rbc-time-header.rbc-overflowing,
+.rbc-time-view,
+.rbc-events-container,
+.rbc-time-header,
+.rbc-time-content,
+.rbc-timeslot-group,
+.rbc-time-slot,
+.rbc-time-header-content,
+.rbc-header,
+table.rbc-agenda-table,
+table.rbc-agenda-table td{
+  border-color: var(--border-color) !important;
+}
+
+.rbc-events-container{
+  z-index: 2;
+}
+
+
+
+.rbc-now, .rbc-today
+{
+
+  background-color: var(--container-color) !important;
+}
+
+.rbc-current-time-indicator{
+  background-color: #7C71F1 !important;
+}
+

@@ -1,0 +1,38 @@
+
+
+
+create_task -> validation -> taskjob created -> generate schedules -> 
+generate content for schedules within 7 days -> generate sections -> generate content per section -> resources per section
+
+{
+    'task' : [Generate a task title considering the task trying to achieve],
+    'icon' : [related icon code from the fontawesome icon library],
+    'schedules' : [
+        {
+            'date' : [Schedule Date],
+            'startTime' : [task start time considering given allocated times],
+            'endTime' : [task end time considering given allocated times],
+            'content' : [[
+                {
+                    'section' : [Section Title],
+                    'section-content' : [
+                        {"element" : [Chosen Element (P/H3)], "content" : "paragraph"},
+                        {"element" : [Chosen Element (CONTAINER)], "children" : [LIST OF content]},
+                        {"element" : [Chosen Element (UL/OL)], "children" : [
+                            {"element" : "LI", "content" : [List Text]}
+                        ]}
+                    ],
+            
+                    'articles' : [
+                        {"title" : [Article Title], "link" : [Article Link]}
+                    ],
+            
+                    'videos' : [
+                        {"title" : [Youtube Video Title], "thumbnail" : [Youtube Video Thumbnail Url], "link" : [Youtube Video Link]}
+                    ]
+                }
+            ]]
+            'heading' : [title related to the content]
+        }
+    ]
+}
